@@ -1,0 +1,19 @@
+{
+  "name": "itpinui",
+  "version": "1.0.1",
+  "description": "itpinui description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanPin/itpin.git"
+  },
+  "author": "ivan.itpin.ru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanPin/itpin/issues"
+  },
+  "homepage": "https://github.com/IvanPin/itpin#readme"
+}
