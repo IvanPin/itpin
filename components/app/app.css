@@ -44,6 +44,13 @@
   cursor: pointer;
 }
 
+.t_row.t_row_active {
+  background-color: #005BD1;
+}
+.t_row.t_row_active .t_title {
+  color: #FFFFFF;
+}
+
 a.t_row {
   text-decoration: none;
 }
