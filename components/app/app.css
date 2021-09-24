@@ -29,10 +29,6 @@
   background-color: var(--colorBg);
 }
 
-.offcanvas-body {
-  padding-top: 60px;
-}
-
 .app {
   display: flex;
 }
