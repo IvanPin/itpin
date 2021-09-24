@@ -1,30 +1,30 @@
-:root {
-  --colorText: #2C2D2E;
-  --colorTextSecondary: #919399;
-  --colorTextContrast: #FFFFFF;
-  --colorBg: #FFFFFF;
-  --colorBgSecondary: #F2F2F7;
-  --colorBgThumbnail: #00103D;
-  --colorBgContrast: #2C2D2E;
-  --colorIcon: #2C2D2E;
-  --colorIconSecondary: #BFC1C7;
-  --colorIconContrast: #FFFFFF;
-  --colorLink: #005BD1;
-  --colorLinkContrast: #FFFFFF;
-  --colorLinkVisited: #528FDF;
-  --colorSuccess: #0DC268;
-  --colorError: #ED0A34;
-  --colorNotify: #FF9E00;
-  --colorWarning: #FF9E00;
-  --colorBgWarning: #FFFCE0;
-  --colorRating: #FFD400;
-  --colorTrueBlack: #000000;
-  --colorTrueWhite: #FFFFFF;
-  --colorState: #00103D;
-  --colorAlert: #C1341B;
-  --colorBgHighlight: #FFF1AD;
-}
-
+@charset "UTF-8";
+/*:root {
+  --colorText: #2C2D2E; //Основной чёрный цвет для текста, иконок и проч
+  --colorTextSecondary: #919399; //Цвет для текста аннотаций, сносок и атрибутов
+  --colorTextContrast: #FFFFFF; //Инверсный цвет для шрифта на тёмных фонах
+  --colorBg: #FFFFFF; //Основной фоновый цвет
+  --colorBgSecondary: #F2F2F7; //Дополнительный фоновый цвет для разграничения объектов, находящихся на одной плоскости. Заливка стандартных элементов управления
+  --colorBgThumbnail: #00103D; //Фоновый цвет для иконоки товара
+  --colorBgContrast: #2C2D2E; //Инверсный фоновый цвет
+  --colorIcon: #2C2D2E; //Цвет основной иконки
+  --colorIconSecondary: #BFC1C7; //Цвет второстепенной иконки
+  --colorIconContrast: #FFFFFF; //Цвет иконки на контрастном фоне
+  --colorLink: #005BD1; //Цвет для основных ссылок
+  --colorLinkContrast: #FFFFFF; //Цвет ссылки на инверсном фоне
+  --colorLinkVisited: #528FDF; //Цвет для посещённых ссылок
+  --colorSuccess: #0DC268; //Цвет положительных статусов
+  --colorError: #ED0A34; //Цвет ошибок и критичных предупреждений
+  --colorNotify: #FF9E00; //Цвет индикатора непрочитанности
+  --colorWarning: #FF9E00; //Цвет индикатора непрочитанности
+  --colorBgWarning: #FFFCE0; //Фоновый цвет для предупреждений
+  --colorRating: #FFD400; //Используется в рейтингах
+  --colorTrueBlack: #000000; //Абсолютно чёрный. Используется для получения вспомогательных цветов через прозрачность
+  --colorTrueWhite: #FFFFFF; //Абсолютно белый. Используется для получения вспомогательных цвет через прозрачность
+  --colorState: #00103D; //Цвет для состояний hover, active и focus. На основных проектах используется черный. Прозрачность цвета определяется параметрами toneValueX1, toneValueX2,
+  --colorAlert: #C1341B; //Цвет алертов. Используется для подсветки фишинговых
+  --colorBgHighlight: #FFF1AD; //Цвет подсветки
+}*/
 .bg {
   background-color: var(--colorBg);
 }
@@ -32,6 +32,7 @@
 .tables {
   border-radius: 12px;
   overflow: hidden;
+  background-color: #FFFFFF;
 }
 
 .t_row {
@@ -130,7 +131,7 @@ a.t_row:hover {
 }
 
 .app_left_menu {
-  background: var(--colorBgSecondary);
+  background: #F2F2F7;
 }
 
 .app_content {
@@ -144,7 +145,7 @@ a.t_row:hover {
   width: 100%;
   height: 60px;
   align-items: center;
-  background: var(--colorBg);
+  background: #FFFFFF;
 }
 
 .app_menu_icon_view {
@@ -180,7 +181,7 @@ a.user_card {
 
 .user_card {
   display: flex;
-  background-color: var(--colorBg);
+  background-color: #FFFFFF;
   padding: 16px;
   border-radius: 12px;
 }
@@ -199,7 +200,7 @@ a.user_card {
   font-weight: normal;
   font-size: 17px;
   line-height: 22px;
-  color: var(--colorText);
+  color: #2C2D2E;
 }
 
 .user_description {
@@ -207,7 +208,7 @@ a.user_card {
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
-  color: var(--colorTextSecondary);
+  color: #919399;
 }
 
 .detail_view {

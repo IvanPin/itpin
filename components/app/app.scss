@@ -15,7 +15,7 @@
   transition: transform .3s ease-in-out;
 }
 .app_left_menu{
-  background: var(--colorBgSecondary);
+  background: $colorBgSecondary;
 }
 .app_content{
   width: 100%;
@@ -28,7 +28,7 @@
   width: 100%;
   height: 60px;
   align-items: center;
-  background: var(--colorBg);
+  background: $colorBg;
 }
 .app_menu_icon_view{
   width: 44px;
@@ -64,7 +64,7 @@ a.user_card{
 }
 .user_card{
   display: flex;
-  background-color: var(--colorBg);
+  background-color: $colorBg;
   padding: 16px;
   border-radius: 12px;
 }
@@ -81,14 +81,14 @@ a.user_card{
   font-weight: normal;
   font-size: 17px;
   line-height: 22px;
-  color: var(--colorText);
+  color: $colorText;
 }
 .user_description{
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
-  color: var(--colorTextSecondary);
+  color: $colorTextSecondary;
 }
 
 .detail_view{
