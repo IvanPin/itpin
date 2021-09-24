@@ -1,5 +1,4 @@
 @import "../../Color/_color";
-@import "../_tables";
 
 .offcanvas-body{
   padding-top: 60px;
@@ -94,7 +93,7 @@ a.user_card{
 .detail_view{
   width: 24px;
   height: 42px;
-  background-image: url("img/right.svg");
+  background-image: url("/images/itpinui/right.svg");
   background-repeat: no-repeat;
   background-position: right center;
   margin-left: auto;
